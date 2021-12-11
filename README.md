@@ -55,14 +55,14 @@ To train the restoration models of Deraindrop, Dehaze and Deblurring. You should
   VERBOSE: False
 
   MODEL:
-    MODE: 'Deblur'
+    MODE: 'SRMNet_denoise'
 
   # Optimization arguments.
   OPTIM:
     BATCH: 2
-    EPOCHS: 150
-    # NEPOCH_DECAY: [10]
-    LR_INITIAL: 2e-4
+    EPOCHS: 100
+    # EPOCH_DECAY: [10]
+    LR_INITIAL: 1e-4
     LR_MIN: 1e-6
     # BETA1: 0.9
 
@@ -71,10 +71,9 @@ To train the restoration models of Deraindrop, Dehaze and Deblurring. You should
     RESUME: False
     TRAIN_PS: 256
     VAL_PS: 256
-    TRAIN_DIR: './datasets/deraindrop/train'       # path to training data
-    VAL_DIR: './datasets/deraindrop/test' # path to validation data
+    TRAIN_DIR: 'D:/PycharmProjects/SUNet-main/datasets/Denoising_DIV2K/train'       # path to training data
+    VAL_DIR: 'D:/PycharmProjects/SUNet-main/datasets/Denoising_DIV2K/test' # path to validation data
     SAVE_DIR: './checkpoints'           # path to save models and images
-
   ```
 - Dataset:  
   The preparation of dataset in more detail, see [datasets/README.md](datasets/README.md).  
