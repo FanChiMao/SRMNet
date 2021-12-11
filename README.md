@@ -73,7 +73,7 @@ To train the restoration models of Denoising. You should check the following com
   ```
   
 - Dataset:  
-  The preparation of dataset in more detail, see [Datasets/README.md](Datasets/README.md).  
+  The preparation of dataset in more detail, see [Dataset/README.md](Dataset/README.md).  
   
 - Train:  
   If the above path and data are all correctly setting, just simply run:  
