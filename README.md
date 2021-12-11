@@ -39,12 +39,8 @@ To test the pre-trained models of Denoising on your own images, run
 ```
 python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
 ```
-Here is an example to perform Deraindrop:
-```
-python demo.py --input_dir './demo_samples/deraindrop' --result_dir './demo_results' --weights './pretrained_model/deraindrop_model.pth'
-```
+**All pre-trained models can be downloaded at [pretrained_model/README.md](pretrained_model/README.md) or [here](https://github.com/FanChiMao/SRMNet/releases)**  
 
-**All pre-trained models can be downloaded at [pretrained_model/README.md](pretrained_model/README.md) or [here](https://github.com/FanChiMao/SRMNet/releases)**
 ## Train  
 To train the restoration models of Denoising. You should check the following components are correct:  
 - `training.yaml`:  
@@ -75,6 +71,7 @@ To train the restoration models of Denoising. You should check the following com
     VAL_DIR: 'D:/PycharmProjects/SUNet-main/datasets/Denoising_DIV2K/test' # path to validation data
     SAVE_DIR: './checkpoints'           # path to save models and images
   ```
+  
 - Dataset:  
   The preparation of dataset in more detail, see [datasets/README.md](datasets/README.md).  
   
