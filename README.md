@@ -29,7 +29,7 @@ visual quality.
   </tr>
   <tr>
     <td><p align="center"><b>Selective Residual Block (SRB)</b></p></td>
-    <td><p align="center"> <b>Resizing Block</b></p></td>
+    <td><p align="center"> <b>Resizing Block (Pixel Shuffle)</b></p></td>
   </tr>
 </table>
 
@@ -46,7 +46,7 @@ python demo.py --input_dir './demo_samples/deraindrop' --result_dir './demo_resu
 
 **All pre-trained models can be downloaded at [pretrained_model/README.md](pretrained_model/README.md) or [here](https://github.com/FanChiMao/CMFNet/releases)**
 ## Train  
-To train the restoration models of Deraindrop, Dehaze and Deblurring. You should check the following components:  
+To train the restoration models of Denoising. You should check the following components are correct:  
 - `training.yaml`:  
   ```
   # Training configuration
