@@ -80,5 +80,11 @@ To train the restoration models of Denoising. You should check the following com
   ```
   python train.py
   ```  
+## Test (Evaluation)  
+
+To test the models of real image denoising, see the `test_DND_real_denoising.py`, `test_SIDD_real_denoising.py`.
+To test the PSNR and SSIM of *AWGN*, see the [evaluation_AWGN.m](./evaluation_AWGN.m).
+
+
 
 
