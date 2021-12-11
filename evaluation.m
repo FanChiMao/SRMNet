@@ -23,21 +23,21 @@ denoise_psnr = 0;
 noise_ssim = 0;
 denoise_ssim = 0;
 
-img_num = length(img_GT_list);%Àò¨ú¼v¶HÁ`¼Æ¶q
+img_num = length(img_GT_list);%ç²å–å½±è±¡ç¸½æ•¸é‡
 
 
-for j = 1:img_num %³v¤@Åª¨ú¼v¶H
-	GT_name = img_GT_list(j).name;% ¼v¶H¦W
+for j = 1:img_num %é€ä¸€è®€å–å½±è±¡
+	GT_name = img_GT_list(j).name;% å½±è±¡å
     GT = imread(strcat(pathGT,GT_name));
     %GT = im2single(GT);
     %GT_g = rgb2gray(GT);
         
-    Noise_name = img_noise_list(j).name;% ¼v¶H¦W
+    Noise_name = img_noise_list(j).name;% å½±è±¡å
     Noise = imread(strcat(pathN,Noise_name));
     %Noise = im2single(Noise);
     %Noise_g = rgb2gray(Noise);
         
-    Denoise_name = img_denoise_list(j).name;% ¼v¶H¦W
+    Denoise_name = img_denoise_list(j).name;% å½±è±¡å
     Denoise = imread(strcat(pathD,Denoise_name));
     %Denoise = im2single(Denoise);
     %Denoise_g = rgb2gray(Denoise);
