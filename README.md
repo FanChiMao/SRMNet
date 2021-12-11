@@ -17,18 +17,18 @@ visual quality.
 ## Network Architecture  
 <table>
   <tr>
-    <td colspan="2"><img src = "https://i.ibb.co/3WRbpYv/CMFNet.png" alt="CMFNet" width="800"> </td>  
+    <td colspan="2"><img src = "https://i.imgur.com/GYeypta.png" alt="SRMNet" width="800"> </td>  
   </tr>
   <tr>
-    <td colspan="2"><p align="center"><b>Overall Framework of CMFNet</b></p></td>
+    <td colspan="2"><p align="center"><b>Overall Framework of SRMNet</b></p></td>
   </tr>
   
   <tr>
-    <td> <img src = "https://i.ibb.co/FBx9QLy/UNet.png" width="400"> </td>
-    <td> <img src = "https://i.ibb.co/W0yk5hn/MSC.png" width="400"> </td>
+    <td> <img src = "https://i.imgur.com/z6Vds87.png" width="400"> </td>
+    <td> <img src = "https://i.imgur.com/eaLejBK.png" width="400"> </td>
   </tr>
   <tr>
-    <td><p align="center"><b>Branch U-Net architecture</b></p></td>
-    <td><p align="center"> <b>Mixed Skip Connection (MSC)</b></p></td>
+    <td><p align="center"><b>Selective Residual Block (SRB)</b></p></td>
+    <td><p align="center"> <b>Resizing Block</b></p></td>
   </tr>
 </table>
