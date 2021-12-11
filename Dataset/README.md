@@ -1,6 +1,6 @@
 # Datasets  
 
-## AWGN  
+## AWGN image denoising  
 - Training: [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  
 - Testing:  
   - [CBSD68](https://github.com/clausmichele/CBSD68-dataset/tree/master/CBSD68/original)  
