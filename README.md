@@ -86,8 +86,15 @@ To run the models of real image denoising, see [test_DND_real_denoising.py](./te
 To test the PSNR and SSIM of *real image denoising*, see [evaluation_DND.py](./evaluation_DND.py) and [evaluation_SIDD.m](./evaluation_SIDD.m).  
 To test the PSNR and SSIM of *AWGN image denoising*, see the [evaluation.m](./evaluation.m).  
 
+## Result  
+<img src = "https://i.imgur.com/TILnGHa.png" width="800">  
+<img src = "https://i.imgur.com/vxt6Vs9.png" width="800">  
 
+## Visual Comparison  
 
+<img src = "https://i.imgur.com/H9CWlll.png" width="800">  
+
+**More visual results can be downloaded at [here](https://github.com/FanChiMao/SRMNet/releases).**  
 
 
 
