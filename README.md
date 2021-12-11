@@ -87,7 +87,9 @@ To test the PSNR and SSIM of *real image denoising*, see [evaluation_DND.py](./e
 To test the PSNR and SSIM of *AWGN image denoising*, see the [evaluation.m](./evaluation.m).  
 
 ## Result  
+- AWGN image denoising  
 <img src = "https://i.imgur.com/TILnGHa.png" width="800">  
+- Real image denoising  
 <img src = "https://i.imgur.com/vxt6Vs9.png" width="400">  
 
 ## Visual Comparison  
