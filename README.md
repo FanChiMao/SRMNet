@@ -10,7 +10,7 @@ a hierarchical architecture improved from U-Net. We
 use a selective kernel with residual block on the hierarchical
 structural named M-Net to enrich the multi-scale semantic
 information. Furthermore, our SRMNet has competitive
-performance results on three synthetic and two realworld
+performance results on two synthetic and two realworld
 noisy datasets in terms of quantitative metrics and
 visual quality.
 
