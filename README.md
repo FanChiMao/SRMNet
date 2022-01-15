@@ -35,6 +35,12 @@ visual quality.
 
 
 ## Quick Run  
+You can simply demo on the space of Hugging Face:  
+- [Real denoising](https://huggingface.co/spaces/52Hz/SRMNet_real_world_denoising)  
+- [AWGN denoising](https://huggingface.co/spaces/52Hz/CMFNet_deblurring)  
+
+Or test on local environment:  
+
 To test the pre-trained models of Denoising on your own images, run
 ```
 python demo.py --input_dir images_folder_path --result_dir save_images_here --weights path_to_models
