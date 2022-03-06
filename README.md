@@ -1,6 +1,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/selective-residual-m-net-for-real-image/image-denoising-on-sidd)](https://paperswithcode.com/sota/image-denoising-on-sidd?p=selective-residual-m-net-for-real-image)  
 
 # Selective Residual M-Net for Real Image Denoising  
+## [Chi-Mao Fan](https://github.com/FanChiMao), Tsung-Jung Liu, Kuan-Hsien Liu  
+**Paper**: [https://arxiv.org/abs/2203.01296](https://arxiv.org/pdf/2203.01645v1.pdf)  
 > Abstract : Image restoration is a low-level vision task which is restoring
 the degraded images to noise-free images. With the success
 of deep neural networks, especially the convolutional
