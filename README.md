@@ -38,8 +38,8 @@ visual quality.
 
 ## Quick Run  
 You can simply demo on the space of Hugging Face:  
-- [Real denoising](https://huggingface.co/spaces/52Hz/SRMNet_real_world_denoising)  
-- [AWGN denoising](https://huggingface.co/spaces/52Hz/SRMNet_AWGN_denoising)  
+- [**Real denoising**](https://huggingface.co/spaces/52Hz/SRMNet_real_world_denoising)  
+- [**AWGN denoising**](https://huggingface.co/spaces/52Hz/SRMNet_AWGN_denoising)  
 
 Or test on local environment:  
 
