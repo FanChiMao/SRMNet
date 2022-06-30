@@ -5,8 +5,8 @@ This conference has not yet been held, only the preprint paper of arXiv presente
 ## [Chi-Mao Fan](https://github.com/FanChiMao), Tsung-Jung Liu, Kuan-Hsien Liu  
 [![paper](https://img.shields.io/badge/arXiv-Paper-brightgreen)](https://arxiv.org/abs/2203.01645)
 [![official_paper](https://img.shields.io/badge/IEEE-Paper-blue)]()
-[![video](https://img.shields.io/badge/Video-Presentation-F9D371)]()
-[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)]()  
+[![video](https://img.shields.io/badge/Video-Presentation-F9D371)](https://youtu.be/uju2fSa44h4)
+[![slides](https://img.shields.io/badge/Presentation-Slides-B762C1)](https://docs.google.com/presentation/d/14asO5anq6POLYlujCABUvU_Qg2UlBPVt/edit?usp=sharing&ouid=108348190349543369603&rtpof=true&sd=true)  
 > Abstract : Image restoration is a low-level vision task which is restoring
 the degraded images to noise-free images. With the success
 of deep neural networks, especially the convolutional
